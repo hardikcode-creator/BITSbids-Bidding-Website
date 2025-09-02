@@ -1,0 +1,14 @@
+.productlist{
+ display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Flexible columns */
+  gap: 20px; /* Space between grid items */
+  padding: 20px; /* Space inside the container */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.product-sort-container{
+      margin-left: 400px;
+    width: 100%;
+    flex-direction: column;
+}

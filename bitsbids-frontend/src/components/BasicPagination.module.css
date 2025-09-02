@@ -1,0 +1,22 @@
+/* BasicPagination.module.css */
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  right: 10px;
+  bottom: 40px;
+}
+
+/* Increase specificity so it overrides MUI defaults */
+.pagination :global(.MuiPaginationItem-root) {
+  color: white;
+}
+
+.pagination :global(.MuiPaginationItem-root.Mui-selected) {
+  background-color:#1E40AF;
+  color: white;
+}
+
+.pagination :global(.MuiPaginationItem-root:hover) {
+  background-color: rgba(124, 77, 255, 0.2);
+}

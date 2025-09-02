@@ -1,0 +1,40 @@
+.add-item-container{
+   background-color:  #151515;
+   margin: auto;
+   width: 80%;
+   margin-top: 100px;
+   padding: 20px;
+   border-radius:12px;
+}
+
+.name-starting-container , .start-end-container{
+    display: flex;
+    gap: 4%;
+}
+.price-container{
+    flex: 0.3;
+}
+.name-container{
+    flex: 0.7;
+}
+
+.start-container{
+    flex: 0.5;
+}
+.end-container{
+    flex: 0.5;
+}
+
+.add-btn{
+    width: 50%;
+    margin: auto;
+    padding: 8px 14px;
+    border: 2px solid #2563EB ;
+    text-align: center;
+    border-radius: 12px;
+    display: block;
+}
+
+.add-btn:hover{
+    background-color: #2563EB;
+}

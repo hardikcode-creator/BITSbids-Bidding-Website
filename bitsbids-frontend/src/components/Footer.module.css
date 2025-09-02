@@ -1,0 +1,37 @@
+.footer-container {
+  width: 100%;
+  background-color: #1b1b1b;
+  padding: 0.5rem 0;
+   position: fixed;
+  bottom: 0px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #dcdcdc;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  text-align: left;
+}
+
+.centerText {
+  flex: 2;
+  margin-left: 250px;
+  font-size: 0.95rem;
+}
+
+.githubLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.githubLink:hover {
+  text-decoration: underline;
+}

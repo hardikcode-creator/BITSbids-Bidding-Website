@@ -1,0 +1,91 @@
+.navbar{
+    padding: 10px 0px;
+    padding-right: 50px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151515;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    border-bottom: 1px solid #2C2C2C;
+}
+
+.logo{
+  height: 50px;
+  width: auto;
+}
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+   color: #E0E0E0;
+   margin-bottom: 0;
+}
+
+.navbar-right{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar {
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-button{
+  background-color: #2A2A2A;             
+  border: 2px solid #2563EB;    
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, border 0.3s ease;
+}
+
+.navbar-button:hover {
+  background-color: #1E40AF;     
+  border-color: #1E40AF;
+}
+
+.active{
+  padding-bottom: 2px;
+  border-bottom: 2px solid #1E40AF;
+}
+
+.navbar-wallet {
+  text-decoration: none;
+}
+
+.wallet-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 2px solid #00ff7f; /* bright green */
+  border-radius: 8px;
+  background-color: transparent;
+  font-weight: bold;
+  color: white;
+}
+.wallet-content:hover{
+  background-color: #149655;
+  border-color: #149655;
+}
+
+.wallet-icon {
+  width:auto;
+  height: 15px;
+}
+
+.navbar-profile{
+  border: 3px solid #1E40AF;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.navbar-profile:hover{
+  background-color: #1E40AF;
+}
